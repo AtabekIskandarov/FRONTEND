@@ -1,0 +1,30 @@
+h1 {
+    background-color: #7683f3;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+dl {
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+caption {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+table {
+    font-size: large;
+}
+
+.dz {
+
+    font-style: initial;
+    background-color: midnightblue;
+    color: oldlace;
+    text-align: center;
+   
+}

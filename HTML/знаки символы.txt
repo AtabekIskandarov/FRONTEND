@@ -1,0 +1,63 @@
+~ (tilde) - тильда
+
+! (exclamation mark) – восклицательный знак
+
+@ (at) – собачка
+
+# (number или hash) – решетка, диез
+
+$ (dollar) – доллар
+
+% (percent) – процент
+
+^ (caret) – знак вставки
+
+& (ampersand) – и
+
+* (asterisk) – звездочка
+
+( (open или left parenthesis) – открывающая или левая круглая скобка
+
+) (close или right parenthesis) – закрывающая или правая круглая скобка
+
+_ (underscore или horizontal bar) – нижнее подчеркивание
+
++ (plus) – плюс
+
+` (acute) – гравис
+
+- (dash или hyphen) – тире или дефис
+
+= (equals) – знак равенства
+
+{ (open или left curly brace) – открывающая или левая фигурная скобка
+
+} (close или right curly brace) – закрывающая или правая фигурная скобка
+
+| (pipe или vertical bar) – вертикальная черта
+
+[ (open или left square bracket) – открывающая или левая квадратная скобка
+
+] (close или right square bracket) – закрывающая или правая квадратная скобка
+
+\ (reverse solidus или backslash) – обратный слеш/ слэш
+
+/ (solidus или forward slash) – слеш/ слэш
+
+: (colon) – двоеточие
+
+" (quote) – кавычки
+
+; (semi colon) – точка с запятой
+
+´ (apostrophe или single quote) – апостроф
+
+< (less than) – знак меньше
+
+> (greater than) – знак больше
+
+? (question mark) – вопросительный знак
+
+, (comma) – запятая
+
+. (dot, period или full stop) – точка (слово «dot» используется, как правило, в названиях email адресов или web адресов; full stop (брит. анг.) или period (амер. англ.) – это точка, которая ставится в конце предложения)

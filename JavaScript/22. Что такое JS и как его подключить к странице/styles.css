@@ -1,0 +1,16 @@
+* {
+    color: azure;
+}
+
+h1 {
+   padding-left: 50px;
+   color: rgb(74, 201, 233);
+}
+
+span {
+    padding-left: 20px;
+}
+
+p {
+    font-weight: 300;
+}

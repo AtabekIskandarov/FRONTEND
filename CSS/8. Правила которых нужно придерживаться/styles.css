@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(32, 100, 16);
+}
+
+.container{
+    text-align: center;
+    color: rgb(206, 228, 125);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: rgb(197, 149, 149) 5px double;
+    background-color: rgb(3, 2, 44);
+    margin: 25px 25px;
+}
+
+.sidebar {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: larger;
+    border: 4px double lightslategray;
+    background-color: navy;
+    margin: 10px 10px;
+}
+
+#footer {
+    border: 8px double rgb(37, 38, 44);
+    background-color: rgb(36, 2, 36);
+    text-align: center;
+    color: snow;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 50px;
+}

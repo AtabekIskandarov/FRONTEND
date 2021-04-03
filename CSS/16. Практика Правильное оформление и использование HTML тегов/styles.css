@@ -1,0 +1,265 @@
+/* 
+.fon_yellow {
+    background-color: yellow;
+}
+li {
+    font-size: 12px;
+}
+
+.second_class {
+    border: 8px solid red;
+}
+/* перечисление классов которые находятся в одном сегменте CLASS */
+/* <div class="fon_yellow second_class sun help"> */
+/* .fon_yellow.second_class.sun.help {
+    background: royalblue;
+} */
+
+/* Данная запись трактуется следующим образом::after
+    main_menu - основной родительский блок
+    sun       - внутренний элемент который находится внутри блока main_menu
+
+    По простому:
+    CSS должен найти в HTML клас SUN который находится в main_menu
+*/
+
+/* .main_menu .sun {
+    background: pink;
+}
+
+.primer div, .primer p {
+    background: red;
+}
+
+#my_id {
+    background: purple;
+}
+
+[data-atabek="name"] {
+    background: pink;
+} */
+
+/* .urok12 {
+    background-image: url(https://s1.1zoom.ru/big3/984/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_3840x2400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+    margin-bottom: 120px; */
+
+    /* margin-top: 20%; */
+/* } */
+/* px - конкретное число измерения, которая не изменяется */
+/* rem - oтносительная единица измирения которая базиритуется от HTML */
+/* em -  oтносительная единица измирения которая базиритуется от родительского блока*/
+/* % - oтносительная единица измирения которая базиритуется от ширины экрана или от блока*/
+
+/* Правила 4х сторон */
+/*  Левая-верхняя-правая-нижняя и  */
+/* Цвета в 4х сторон */
+/*  оранжевый - margin - внешний отступ
+    Желтый - border границы
+    Зеленный - parring - внутренние отступы
+    Синий - контент -содержимое документа */
+
+    /* a {
+        display: block;
+    }
+
+  .urok12_1 {
+      display: flex;
+      justify-content: center;
+      border: 15px double green;
+  } */
+    /* 
+    block -  блочная структура
+    block -  строчная структура
+    flex - удобная адаптация ширины
+    */
+
+    /* 
+    Псевдоклассы - это событие + обращение к позициям того или иного блока
+    */
+
+    /* .urok12_1 ul li:nth-child(3) {
+        background: red;
+    }
+
+    .urok12_1 ul li:nth-child(2n) {
+        background: greenyellow;
+    }
+    
+    .urok12_1:hover {
+        background-color: lightseagreen;
+    }
+    .urok12_1 {
+        transition: 1s;
+    } */ 
+* {
+    box-sizing: border-box;
+    /* font-family: corbel; */
+}
+body, p {
+    margin: 0;
+    font-family: calibri;
+    
+}
+.verh_m {
+    background: #f7f7f7;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.left, .ul_li > li {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.ul_li li {
+    padding: 10px 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.b_r li {
+    border-right: 1px solid #cecccc;
+}
+
+.verh_m .ul_li i {
+    margin-right: 10px;
+}
+
+.b_r li:last-child {
+    border-right: 0;
+}
+
+.msg {
+    position: absolute;
+    top: -5px;
+    right: 6px;
+    background: red;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    color: white;
+    font-size: 9.5px;
+    line-height: 1.5;
+    border-radius: 13px;
+
+}
+
+.icon_msg {
+    position: relative;
+}
+
+.center_menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seryi_krug {
+    background: #ececec;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 50%;
+    color: #504f72;
+    
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.center_menu .right p:first-child {
+    font-weight: bold;
+    color: #4b4c6c;
+}
+
+.nijnee_menu {
+    display: inline-block;
+    width: 100%;
+    background: #f7f7f7;
+    position: relative;
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background: #f0f0fa;
+    border: 1px solid rgb(129, 128, 128);
+    width: 90%;
+    top: 45px;
+    left: 40px;
+}
+
+.hover_menu li:hover .dropdown_menu {
+    display: block;
+    border-radius: 10px;
+    
+}
+
+.search_box {
+    background: white;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.search_btn {
+    background: white;
+    float: right;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    padding: 4px;
+}
+
+input {
+   height: 25px;
+   border-radius: 10%;
+   width: 310px;
+   border: white;
+   border: none;
+   background: none;
+   outline: none;
+   float: 0;
+   padding: 0;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.zh_krug {
+    background: rgb(255, 230, 0);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 50%;
+    color: #504f72;
+}
+
+.right .txtt {
+    padding-top: 12px;
+    padding-left: -5px;
+    margin-left: -8px;
+}

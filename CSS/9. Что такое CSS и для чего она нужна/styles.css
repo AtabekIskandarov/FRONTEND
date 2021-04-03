@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    border: 10px double rgb(59, 6, 6);
+    background-color: indigo;
+    text-align: center;
+    color: silver;
+    font-size: 55px;
+    margin: 20px 150px;
+    padding: 25px 10px;
+    height: 150px;
+    
+}
+
+.sidebar {
+    border: 3px double silver;
+    background-color: rgb(53, 3, 3);
+    text-align: center;
+    color: silver;
+    height: 65px;
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 5px;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+
+h4 {
+    border: 5px double silver ;
+    background-color: skyblue;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}

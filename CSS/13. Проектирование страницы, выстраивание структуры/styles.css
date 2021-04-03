@@ -1,0 +1,144 @@
+/* 
+.fon_yellow {
+    background-color: yellow;
+}
+li {
+    font-size: 12px;
+}
+
+.second_class {
+    border: 8px solid red;
+}
+/* перечисление классов которые находятся в одном сегменте CLASS */
+/* <div class="fon_yellow second_class sun help"> */
+/* .fon_yellow.second_class.sun.help {
+    background: royalblue;
+} */
+
+/* Данная запись трактуется следующим образом::after
+    main_menu - основной родительский блок
+    sun       - внутренний элемент который находится внутри блока main_menu
+
+    По простому:
+    CSS должен найти в HTML клас SUN который находится в main_menu
+*/
+
+/* .main_menu .sun {
+    background: pink;
+}
+
+.primer div, .primer p {
+    background: red;
+}
+
+#my_id {
+    background: purple;
+}
+
+[data-atabek="name"] {
+    background: pink;
+} */
+
+/* .urok12 {
+    background-image: url(https://s1.1zoom.ru/big3/984/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_3840x2400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+    margin-bottom: 120px; */
+
+    /* margin-top: 20%; */
+/* } */
+/* px - конкретное число измерения, которая не изменяется */
+/* rem - oтносительная единица измирения которая базиритуется от HTML */
+/* em -  oтносительная единица измирения которая базиритуется от родительского блока*/
+/* % - oтносительная единица измирения которая базиритуется от ширины экрана или от блока*/
+
+/* Правила 4х сторон */
+/*  Левая-верхняя-правая-нижняя и  */
+/* Цвета в 4х сторон */
+/*  оранжевый - margin - внешний отступ
+    Желтый - border границы
+    Зеленный - parring - внутренние отступы
+    Синий - контент -содержимое документа */
+
+    /* a {
+        display: block;
+    }
+
+  .urok12_1 {
+      display: flex;
+      justify-content: center;
+      border: 15px double green;
+  } */
+    /* 
+    block -  блочная структура
+    block -  строчная структура
+    flex - удобная адаптация ширины
+    */
+
+    /* 
+    Псевдоклассы - это событие + обращение к позициям того или иного блока
+    */
+
+    /* .urok12_1 ul li:nth-child(3) {
+        background: red;
+    }
+
+    .urok12_1 ul li:nth-child(2n) {
+        background: greenyellow;
+    }
+    
+    .urok12_1:hover {
+        background-color: lightseagreen;
+    }
+    .urok12_1 {
+        transition: 1s;
+    } */ 
+
+    header {
+        background-color: rgb(250, 246, 246);
+        border: 2px solid rgb(248, 245, 245);
+        
+    }
+    .wrapper {
+        display: flex;
+        font-family: arial;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    ul {
+        /* list-style-type: none;
+        margin-left: 40px; */
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .left {
+        display:inline-block
+        
+        
+    }
+
+    li {
+        position: relative;
+        margin: 0;
+        padding: 18px;
+        /* border: 1px solid black; */
+        /* padding: 5px 0px; */
+        margin-left: 20px;
+        
+        
+    }
+
+    .center {
+        width: 250px;
+    }
+    
+
+

@@ -1,0 +1,24 @@
+body {
+    background: url()
+}
+* {
+    margin-left: 20px;
+}
+#out {
+    border: 2px solid rgb(28, 28, 29);
+    width: 120px;
+    line-height: 20px;
+    margin: 0 0 0 20px;
+    background: rgb(237, 245, 241);
+    text-align: center;
+    
+}
+
+button {
+    border-radius: 10px;
+
+}
+
+input {
+    background: rgb(237, 245, 241);
+}

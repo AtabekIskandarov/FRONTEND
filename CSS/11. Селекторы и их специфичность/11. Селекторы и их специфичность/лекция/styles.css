@@ -1,0 +1,48 @@
+/* - pr, rem, em, % - единицы и измерения
+- Box model отступы и границы
+- цвет, фон и картинки
+- displey:
+    displey: flex 
+    Позиционирование и выравнивание 
+- Pseudo элементы и классы
+- Переходы и аницации  */
+
+.fon_yellow {
+    background-color: yellow;
+}
+li {
+    font-size: 12px;
+}
+
+.second_class {
+    border: 8px solid red;
+}
+/* перечисление классов которые находятся в одном сегменте CLASS */
+/* <div class="fon_yellow second_class sun help"> */
+.fon_yellow.second_class.sun.help {
+    background: royalblue;
+}
+
+/* Данная запись трактуется следующим образом::after
+    main_menu - основной родительский блок
+    sun       - внутренний элемент который находится внутри блока main_menu
+
+    По простому:
+    CSS должен найти в HTML клас SUN который находится в main_menu
+*/
+
+.main_menu .sun {
+    background: pink;
+}
+
+.primer div, .primer p {
+    background: red;
+}
+
+#my_id {
+    background: purple;
+}
+
+[data-atabek="name"] {
+    background: pink;
+}
