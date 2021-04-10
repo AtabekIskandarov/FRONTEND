@@ -160,22 +160,16 @@
 
 // console.log(min);
 
-// function min(a, b) {
-//     if (a < b)
-//     return a;
-//     else
-//     return b;
-// }
-// console.log(min(88, 90));
-//   // → 88
-// console.log(min(7, -24));
-//   // → -24
+
 
 // var radius = 10;
 // var circleLength = 2*Math.PI*radius;
 // var circleSquare = Math.PI*Math.pow(radius, 2);
 // console.log("Длина окружности равна " + сircleLength.toFixed(2));
 // console.log("Площадь круга равна " + сircleSquare.toFixed(2));
+
+
+    // 1.Сделать функцию которая вычисляет длину окружности, радиус задает пользователь.
 
 function result (radius){
     var circle = {
@@ -192,3 +186,16 @@ function result (radius){
     var answer = result (2);
     console.log (answer);
 
+
+    // 2. Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b
+
+function min(a, b) {
+    if (a < b)
+    return a;
+    else
+    return b;
+}
+console.log(min(88, 90));
+  // → 88
+console.log(min(7, -24));
+  // → -24

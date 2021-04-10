@@ -1,0 +1,31 @@
+1. Сделать функцию которая вычисляет длину окружности, радиус задает пользователь.
+
+function result (radius){
+    var circle = {
+    square: function (){
+    return Math.PI * Math.pow(radius, 2)
+},
+    length: function (){
+    return Math.PI * 2 * radius;
+}
+};
+    return[circle.square(),circle.length()];
+}
+ 
+    var answer = result (2);
+console.log (answer);
+
+-------------------------------------------------------------------------
+
+2. Напишите функцию min(a,b), которая возвращает меньшее из чисел a
+
+function min(a, b) {
+    if (a < b)
+    return a;
+    else
+    return b;
+}
+console.log(min(88, 90));
+  // ? 88
+console.log(min(7, -24));
+  // ? -24
