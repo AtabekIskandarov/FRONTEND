@@ -102,3 +102,32 @@ console.log(span[14].innerText);
 let del = document.getElementsByTagName("del");
 console.log(del[0].innerText);
 
+// function result (radius){
+//     var circle = {
+//         square: function (){
+//             return Math.PI * Math.pow(radius,4)
+//         }, 
+//         length: function() {
+//             return Math.PI * 4 * radius;
+//         }
+//     };
+// return [cisrcle.square(), circle.length()];
+// }
+
+// var answer = result (4);
+// console.log(answer);
+
+function result (radius){
+    var circle = {
+    square: function (){
+    return Math.PI * Math.pow(radius, 5)
+},
+    length: function (){
+    return Math.PI * 5 * radius;
+}
+};
+    return[circle.square(),circle.length()];
+}
+ 
+    var answer = result (5);
+    console.log (answer);
