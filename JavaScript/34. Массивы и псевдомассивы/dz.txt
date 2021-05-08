@@ -1,0 +1,26 @@
+ --- ДОМАШНЯЯ РАБОТА --- 
+ -- Преобразуйте псевдо массив  в массив -- 
+
+1. дан псевдо массив  {0: 'first', 1: 'second', 2: 'third', length: 3} 
+                       вывод [ "first", "second", "third" ]
+
+РЕШЕНИЕ:
+
+let object = {0: 'first', 1: 'second', 2: 'third', length: 3};
+let array = [];
+for (let i = 0; i < object.length; i++) {
+    array.push(object[i]);
+ };
+ 
+ console.log( array );
+
+----------------------------------------------------------------------------------------------------
+
+2. дан массив ["first", "second", "third" ]
+		  вывод [ "f", "i", "r", "s", "t" ], [ "s", "e", "c", "o", "n", "d" ] [ "t", "h", "i", "r", "d" ] 
+
+РЕШЕНИЕ:
+
+let str = "firstsecondthird"; 
+
+alert( str.split('') );

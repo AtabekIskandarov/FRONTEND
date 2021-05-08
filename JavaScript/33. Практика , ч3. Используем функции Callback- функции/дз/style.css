@@ -1,0 +1,60 @@
+body {
+    background: slategrey;
+}
+
+form {
+    width: 600px;
+    margin: 150px auto;
+}
+
+div { 
+    width: 100px;
+    margin: 15px auto; 
+}
+
+label {
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: -111px;
+}
+
+input {
+    width: 349%;
+    padding: 6px;
+    border: 1px solid #797979;
+    font-size: 14px;
+    margin-left: -107px;
+    border-radius: 3px;
+}
+
+/* button#log-in {
+    margin-left: 144px;
+    margin-top: 10px;
+    padding: 7px;
+    width: 69px;
+    border-radius: 7px;
+    font-size: 14px;
+} */
+
+button {
+    margin: 14px;
+    padding: 7px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background: linear-gradient(90deg, royalblue, lightgreen);
+    margin-left: 141px;
+}
+
+span {
+    display: block;
+    margin-left: -50px;
+    color: red;
+    font-style: italic;
+}
